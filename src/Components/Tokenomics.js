@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
 
-class Resume extends Component {
+class Tokenomics extends Component {
   getRandomColor() {
     let letters = "0123456789ABCDEF";
     let color = "#";
@@ -55,8 +55,8 @@ class Resume extends Component {
     });
 
     return (
-      <section id="resume">
-        <Slide left duration={1300}>
+      <section id="tokenomics">
+        {/* <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -82,13 +82,13 @@ class Resume extends Component {
 
             <div className="nine columns main-col">{work}</div>
           </div>
-        </Slide>
+        </Slide> */}
 
         <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+                <span>Tokenomics</span>
               </h1>
             </div>
 
@@ -101,9 +101,20 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Launch Details</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{work}</div>
+          </div>
+        </Slide>
       </section>
     );
   }
 }
 
-export default Resume;
+export default Tokenomics;

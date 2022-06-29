@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg type="lines" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -26,7 +26,7 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                Sqlana
               </a>
             </li>
 
@@ -37,20 +37,20 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
+              <a className="smoothscroll" href="#tokenomics">
+                Tokenomics
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
+              <a className="smoothscroll" href="#roadmap">
+                Roadmap
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
+              <a className="smoothscroll" href="#disclaimer">
+                Disclaimer
               </a>
             </li>
           </ul>
@@ -67,11 +67,12 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
+                {/* <a href={project} className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                </a> */}
+                <a href="https://www.dexlab.space/" className="button btn">
+                  Trade $SQL at DexLab
+                  {/* <i className="fa fa-github"></i>Github */}
                 </a>
               </ul>
             </Fade>

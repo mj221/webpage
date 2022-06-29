@@ -9,11 +9,11 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
-   e. Portfolio Section
+   d. tokenomics Section
+   e. roadmap Section
    f. Call To Action Section
    g. Testimonials Section
-   h. Contact Section
+   h. disclaimer Section
    i. Footer
 
 ===================================================================== */
@@ -206,7 +206,7 @@ ul#nav li.current a { color: #fe6928; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .disclaimer-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -227,51 +227,51 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. tokenomics Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#tokenomics {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#tokenomics a, #tokenomics a:visited  { color: #0762f9; }
+#tokenomics a:hover, #tokenomics a:focus { color: #313131; }
 
-#resume h1 {
+#tokenomics h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#tokenomics h1 span {
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
 }
-#resume h3 {
+#tokenomics h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#tokenomics .header-col { padding-top: 9px; }
+#tokenomics .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#tokenomics .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#tokenomics .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#tokenomics .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -408,15 +408,15 @@ ul#nav li.current a { color: #fe6928; }
 }  */
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. roadmap Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#roadmap {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+#roadmap h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -425,9 +425,9 @@ ul#nav li.current a { color: #fe6928; }
    color: #95A3A3;
 }
 
-/* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
-.portfolio-item .item-wrap {
+/* roadmap Content */
+#roadmap-wrapper .columns { margin-bottom: 36px; }
+.roadmap-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -438,13 +438,13 @@ ul#nav li.current a { color: #fe6928; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.roadmap-item .item-wrap a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+.roadmap-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -462,7 +462,7 @@ ul#nav li.current a { color: #fe6928; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.roadmap-item .item-wrap .link-icon {
    display: block;
    color: #fff;
    height: 30px;
@@ -486,27 +486,27 @@ ul#nav li.current a { color: #fe6928; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.roadmap-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
-.portfolio-item .portfolio-item-meta h5 {
+.roadmap-item .roadmap-item-meta { padding: 18px }
+.roadmap-item .roadmap-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
-.portfolio-item .portfolio-item-meta p {
+.roadmap-item .roadmap-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+.roadmap-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+.roadmap-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
@@ -785,31 +785,31 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* h. disclaimer Section
 /* ------------------------------------------------------------------ */
 
-#contact {
+#disclaimer {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
+#disclaimer .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #0762f9; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#disclaimer a, #disclaimer a:visited  { color: #0762f9; }
+#disclaimer a:hover, #disclaimer a:focus { color: #fff; }
 
-#contact h1 {
+#disclaimer h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
+#disclaimer h1 span { display: none; }
+#disclaimer h1:before {
    font-family: 'FontAwesome';
-   content: "\f0e0";
+   content: "\f12a";
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
@@ -818,21 +818,21 @@ call-to-action .button {
    color: #ebeeee;
 }
 
-#contact h4 {
+#disclaimer h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact p.lead {
+#disclaimer p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
-#contact .header-col { padding-top: 6px; }
+#disclaimer .header-col { padding-top: 6px; }
 
 
-/* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
+/* disclaimer form */
+#disclaimer form { margin-bottom: 30px; }
+#disclaimer label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
@@ -840,9 +840,9 @@ call-to-action .button {
 	float: left;
    width: 26%;
 }
-#contact input,
-#contact textarea,
-#contact select {
+#disclaimer input,
+#disclaimer textarea,
+#disclaimer select {
    padding: 10px 20px;
 	color: #eee;
 	background: #373233;
@@ -853,13 +853,13 @@ call-to-action .button {
    line-height: 24px;
    width: 65%;
 }
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
+#disclaimer input:focus,
+#disclaimer textarea:focus,
+#disclaimer select:focus {
 	color: #fff;
 	background-color: #0762f9;
 }
-#contact button.submit {
+#disclaimer button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
@@ -871,11 +871,11 @@ call-to-action .button {
 	border-radius: 0px;
    margin-left: 26%;
 }
-#contact button.submit:hover {
+#disclaimer button.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
 }
-#contact span.required {
+#disclaimer span.required {
 	color: #0762f9;
 	font-size: 13px;
 }

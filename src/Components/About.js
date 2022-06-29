@@ -28,33 +28,24 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>YOUR NEW FAVORITE DOWNTIME TOKEN</h2>
 
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
+                  <h2>What is SQLANA?</h2>
+                  <p>2FcAtfp16b7NoEzJMbY4jLnyLcUANqFV19oBCKbzTe5Q.</p>
+                  <h2>UNIQUE BURN MECHANISM</h2>
+                  <p>.</p>
                 </div>
-                <div className="columns download">
+   
+                {/* <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
