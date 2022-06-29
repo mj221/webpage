@@ -23,7 +23,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright {new Date().getFullYear} <a href="#">Sqlana</a></li>
+                <li>&copy; Copyright {new Date().getFullYear()} <a href="#">Sqlana</a></li>
                 <li>
                   Design inspired by{" "}
                   <a title="Styleshout">
