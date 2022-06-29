@@ -70,7 +70,7 @@ class Header extends Component {
                 {/* <a href={project} className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
                 </a> */}
-                <a href="https://www.dexlab.space/" className="button btn">
+                <a href="https://www.dexlab.space/token/2FcAtfp16b7NoEzJMbY4jLnyLcUANqFV19oBCKbzTe5Q " className="button btn">
                   Trade $SQL at DexLab
                   {/* <i className="fa fa-github"></i>Github */}
                 </a>
