@@ -10,6 +10,7 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
+    const description2 = this.props.data.description2;
 
     return (
       <header id="home">
@@ -63,6 +64,7 @@ class Header extends Component {
             </Fade>
             <Fade bottom duration={1200}>
               <h3>{description}.</h3>
+              <h3>{description2}.</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
